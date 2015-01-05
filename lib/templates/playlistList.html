@@ -1,0 +1,14 @@
+<html>
+	<body>
+		<h1>{{title}}</h1>
+
+		{{#each playlists}} 
+		 <a target="_new" href="/sonos/playlist/{{uri}}">
+		  <div style="margin: 10px; float:left; background-image: url({{image}}); width: 171px; height: 171px; background-size: cover;">
+		  </div>
+		 </a>
+		{{/each}}
+
+	</body>
+
+</html>
